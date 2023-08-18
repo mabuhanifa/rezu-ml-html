@@ -26,7 +26,7 @@
       <a href="" class="text-success fw-bold mx-5">
         Home
       </a>
-      <a href="" class="text-success fw-bold" class="d-flex flex-column">
+      <a href="./file.html" class="text-success fw-bold" class="d-flex flex-column">
        <p>Parrot </p> 
        <p> Species  </p> 
        <p>Classifier </p>  
@@ -34,17 +34,18 @@
     </div>
 </div>
 
-    <div class="d-flex justify-content-around">
-      <div class="w-100">
+    <div class="d-flex justify-content-around main">
+      <div class="img-container">
         <img
-          src="https://media.gettyimages.com/id/157375891/photo/scarlet-macaws.jpg?s=612x612&w=gi&k=20&c=5jVfrSz6tacK7gRQwBucl_XkCrVQRf-vUQK7aArXOh8="
+          src="./pic/first.jpg"
           alt=""
-          class="s_img"
+          class="s_img banner"
         />
+        <button class="btn btn-primary check">Check</button>
       </div>
       <div 
       id="carouselExampleIndicators" 
-      class="carousel slide w-100" 
+      class="carousel slide" 
       data-bs-ride="carousel" 
       data-bs-interval="3000">
         <div class="carousel-indicators">
@@ -68,27 +69,53 @@
             data-bs-slide-to="2"
             aria-label="Slide 3"
           ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="3"
+            aria-label="Slide 4"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="4"
+            aria-label="Slide 5"
+          ></button>
         </div>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="https://cdn.pixabay.com/photo/2018/08/12/16/59/parrot-3601194_1280.jpg" alt="" class="s_img">
+            <img src="./pic/c1.jpg" alt="" class="s_img">
               <!-- <title>Placeholder</title> -->
               <rect width="100%" height="100%" fill="#777"></rect>
               <!-- <text x="50%" y="50%" fill="#555" dy=".3em">First slide</text> -->
             </svg>
           </div>
           <div class="carousel-item">
-            <img src="https://img.freepik.com/premium-photo/group-colorful-birds-sitting-branch_1340-26400.jpg" alt="" class="s_img">
+            <img src="./pic/c2.jpg" alt="" class="s_img">
               <!-- <title>Placeholder</title> -->
               <rect width="100%" height="100%" fill="#666"></rect>
               <!-- <text x="50%" y="50%" fill="#444" dy=".3em">Second slide</text> -->
             </svg>
           </div>
           <div class="carousel-item">
-            <img src="https://cdn.firstcry.com/education/2022/04/29104112/1115777186.jpg" alt="" class="s_img">
+            <img src="./pic/c3.jpg" alt="" class="s_img">
               <!-- <title>Placeholder</title> -->
               <rect width="100%" height="100%" fill="#555"></rect>
               <!-- <text x="50%" y="50%" fill="#333" dy=".3em">Third slide</text> -->
+            </svg>
+          </div>
+          <div class="carousel-item">
+            <img src="./pic/c4.jpg" alt="" class="s_img">
+              <!-- <title>Placeholder</title> -->
+              <rect width="100%" height="100%" fill="#555"></rect>
+              <!-- <text x="50%" y="50%" fill="#333" dy=".3em">Fourth slide</text> -->
+            </svg>
+          </div>
+          <div class="carousel-item">
+            <img src="./pic/c5.jpg" alt="" class="s_img">
+              <!-- <title>Placeholder</title> -->
+              <rect width="100%" height="100%" fill="#555"></rect>
+              <!-- <text x="50%" y="50%" fill="#333" dy=".3em">Fifth slide</text> -->
             </svg>
           </div>
         </div>

@@ -9,7 +9,26 @@
   height: 500px;
   object-fit: cover;
 }
+
 a {
   text-decoration: none;
   color: inherit;
+}
+
+.img-container {
+  position: relative;
+}
+
+.s_img.banner {
+  width: 100%;
+  height: auto;
+  display: block;
+  filter: brightness(50%); /* Adjust the darkness */
+}
+
+.btn.check {
+  position: absolute;
+  top: 50%; /* Position the button vertically */
+  left: 50%; /* Position the button horizontally */
+  transform: translate(-50%, -50%); /* Center the button */
 }
