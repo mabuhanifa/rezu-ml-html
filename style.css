@@ -20,15 +20,12 @@ a {
 }
 
 .s_img.banner {
-  width: 100%;
-  height: auto;
-  display: block;
-  filter: brightness(50%); /* Adjust the darkness */
+  filter: brightness(50%);
 }
 
 .btn.check {
   position: absolute;
-  top: 50%; /* Position the button vertically */
-  left: 50%; /* Position the button horizontally */
-  transform: translate(-50%, -50%); /* Center the button */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
