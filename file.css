@@ -3,3 +3,19 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+.file {
+  margin-top: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.file input {
+  padding: 10px;
+  border: 2px solid white;
+  border-radius: 0.5rem;
+}
+.nav-link {
+  color: white;
+  font-weight: 700;
+  font-size: 25px;
+}
