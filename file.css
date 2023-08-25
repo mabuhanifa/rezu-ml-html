@@ -21,18 +21,18 @@
 }
 
 .file-label {
-  color: white;
   font-size: 20px;
 }
-.result {
+#results {
   height: 250px;
   width: 500px;
   background-color: white;
   opacity: 0.85;
   border-radius: 1rem;
+  padding: 0px 5px;
 }
 .file {
-  padding: 10px 0px;
+  padding: 10px 5px;
   display: flex;
   align-items: center;
   height: 50px;
@@ -45,4 +45,14 @@
   display: flex;
   justify-content: center;
   margin-top: 25px;
+}
+
+.result-img {
+  width: 100px;
+  width: 100px;
+  object-fit: cover;
+}
+.result-text {
+  text-transform: capitalize;
+  font-size: 25px;
 }
