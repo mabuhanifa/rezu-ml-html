@@ -33,3 +33,15 @@ a {
   background: url("./pic/back.jpg");
   background-size: cover;
 }
+.main {
+  position: relative;
+}
+.check {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  width: 100%;
+  padding: 200px;
+  color: white;
+}
