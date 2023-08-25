@@ -11,7 +11,7 @@
 }
 .file input {
   padding: 10px;
-  border: 2px solid white;
+  border: 2px dashed;
   border-radius: 0.5rem;
 }
 .nav-link {
