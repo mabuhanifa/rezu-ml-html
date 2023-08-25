@@ -13,3 +13,9 @@ td {
 th {
   background-color: #f2f2f2;
 }
+.nav-link {
+  color: inherit;
+  font-weight: 700;
+  font-size: 25px;
+  margin: 20px 0px;
+}
