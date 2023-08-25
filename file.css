@@ -56,3 +56,7 @@
   text-transform: capitalize;
   font-size: 25px;
 }
+#results {
+  display: flex;
+  justify-content: center;
+}
